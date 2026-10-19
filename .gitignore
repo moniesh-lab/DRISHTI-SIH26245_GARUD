@@ -16,6 +16,7 @@ venv/
 # Large video files
 *.avi
 *.mp4
+!gov-monitoring-system/public/sample_cctv.mp4
 *.mov
 
 # FFmpeg executable
@@ -24,3 +25,5 @@ ffmpeg.exe
 # Training datasets
 datasets/
 runs/
+.vercel
+.env*
