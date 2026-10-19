@@ -18,3 +18,7 @@ venv
 **/runs
 **/.cache
 **/test_videos
+gov-monitoring-system/public/040.avi
+gov-monitoring-system/public/040_cctv.mp4
+gov-monitoring-system/public/040.mp4
+gov-monitoring-system/ffmpeg.exe
