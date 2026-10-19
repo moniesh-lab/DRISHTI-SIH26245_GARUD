@@ -627,7 +627,7 @@ export default function GovDashboard({
             key={centre_id}
             centreId={centre_id}
             mode={centre_id === "CNT-3109" ? "webcam" : "video"}
-            videoSrc={centre_id === "CNT-9903" ? "/sample_cctv.mp4" : "/040_cctv.mp4"}
+            videoSrc="/sample_cctv.mp4"
             centreName={appState.centre_name}
             initialReportedCount={attendance_column.manual_reported}
             onCountChange={(count) => {
